@@ -27,6 +27,7 @@ pipeline{
                 sh "'"
                     oc project irzhhk-greetings
                     oc start-build greetings-console --follow --wait
+                "'"
             }
         }
     }
